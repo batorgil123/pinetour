@@ -87,12 +87,11 @@ body {
 }
 
 .direction-container {
-    width: 56px;
+    width: 303px;
     height: 559px;
     display: flex;
-    padding: 0px;
-    justify-content: center;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
 .dotted-line {
@@ -137,7 +136,6 @@ body {
     width: 1198px;
     margin-top: 240px;
     display: flex;
-
     justify-content: space-between;
 }
 
@@ -363,5 +361,32 @@ body {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
-
+}   
+.map-text-div{
+    width: 231px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px   ;
+}
+#name{
+    width: 233px;
+    height: 520px;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.map-text-1{
+    margin: 0px;
+    padding: 0px;
+   font-weight: 600;
+    
+}
+.map-text-2{
+    margin: 0px;
+    padding: 0px;
+    color: #777777;
 }
